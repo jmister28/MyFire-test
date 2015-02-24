@@ -1,1 +1,16 @@
-<head
+<head>
+  <script src= "http://jmister28.github.io/MyFirebase/API.js"></script>
+  <script src='https://cdn.firebase.com/js/client/2.0.4/firebase.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
+</head>
+<body>
+  <script>
+  var promp = prompt("TYPE E");
+  if (promp == "e") {
+    setup("https://brilliant-inferno-6882.firebaseio.com/");
+    writeNormal("Test");
+    view();
+  }
+  </script>
+</body>
